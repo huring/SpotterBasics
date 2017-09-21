@@ -1,30 +1,44 @@
-import { SessionString } from '../Session/session.sessionstring';
+import {SessionString} from './session.sessionstring';
+
+
+
+/**
+ * Shot
+ * 
+ * @export
+ * @class Shot
+ * @extends {SessionString}
+ * @classdesc {Simple class to describe a single shot}
+ */
 
 export class Shot extends SessionString {
     public ShotID: Number;
     public ShotTime: Date;
     public UserID: Number;
     public ShotMedia: String;
-    public shotMetadata: Array<ShotMetadataItem>;
+    public shotData: Array<ShotMetadata>;
 }
 
 let s = new Shot();
 
-enum Metadata {
+enum MetadataTypes {
     TEMPERATURE,
     WINDSPEED,
-    PRESSURE
+    PRESSURE,
+    VELOCITY
 };
 
-class ShotMetadataItem {
-    public Type: Metadata;
-    public Payload: {key:Number, value:String};
+class ShotMetadata {
+    public value: {key:MetadataTypes, value:String};
 }
 
-let sm = new ShotMetadataItem();
+let sm = new ShotMetadata();
 
-sm.Type = Metadata.TEMPERATURE;
-sm.Payload = {
-    key: 1,
-    value: 'foo'
-};
+sm.value = {
+    key: MetadataTypes.TEMPERATURE,
+    value: '24'
+}
+
+s.shotData.push(sm);
+
+console.log(sm);

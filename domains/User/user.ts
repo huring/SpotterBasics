@@ -1,4 +1,5 @@
 // Base user class
+import { Weapon } from './user.weapon';
 
 export class User {
     public ID: Number;
@@ -10,5 +11,3 @@ export class User {
     public socialMediaAccounts: Array<{}>;
     public weapons: Array<Weapon>;
 }
-
-var user = new User();

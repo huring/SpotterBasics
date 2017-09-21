@@ -1,6 +1,6 @@
 // Weapon class
 
-class Weapon extends User {
+export class Weapon extends User {
 
     public ID: Number;
     public Name: String;
