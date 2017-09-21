@@ -1,6 +1,6 @@
 // Base user class
 
-class User {
+export class User {
     public ID: Number;
     public userName: String;
     public avatar: URL;

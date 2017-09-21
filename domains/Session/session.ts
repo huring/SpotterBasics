@@ -1,9 +1,14 @@
 // Base class for shooting session
-class Session {
+import { User } from '../User/user';
 
-    public started: Date;
-    public stopped: Date;
-    public duration: TimeRanges;
-    public users: Array<User>;
+export class Session {
+
+    public Started: Date;
+    public Stopped: Date;
+    public Duration: TimeRanges;
+    public Users: Array<User>;
+    public Strings: Array<String>;
 
 }
+
+var session = new Session();
