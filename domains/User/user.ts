@@ -10,5 +10,4 @@ export class User {
     public lastName: String;
     public socialMediaAccounts: Array<{}>;
     public weapons: Array<Weapon>;
-    public foo: String;
 }

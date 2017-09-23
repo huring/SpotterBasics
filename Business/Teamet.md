@@ -13,3 +13,9 @@ Systemarkitekt med lång erfarenhet av stora system och utveckling av digitala t
 
 ## ABI
 Spotter är med i ABIs inkubator steg 1. 
+
+### Jens Lundström
+Jens är VD på ABI och finns med som rådgivare och expert till Spotter - Jens är själv fältskytt och driver bland annat en webbplats för att arrangera skyttetävlingar med ca 25 000 medlemmar.
+
+## Fredrik Kallioniemi
+Fredrik är affärsutvecklare och entreprenör med ett stort globalt nätverk bland både teknikföretag och riskkapital. Fredrik har själv framgångsrikt startat och sålt ett flertal företag. Fredrik kommer finnas tillgänglig för att förmedla kontakter i sitt nätverk och som rådgivare i frågor som rör riskkapital.
