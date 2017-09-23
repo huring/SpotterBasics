@@ -11,7 +11,7 @@ Systemarkitekt med lång erfarenhet av stora system och utveckling av digitala t
 
 # Partners & Nätverk
 
-## ABI
+## Arctic Business Incubator
 Spotter är med i ABIs inkubator steg 1. 
 
 ### Jens Lundström
