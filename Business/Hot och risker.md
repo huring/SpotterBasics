@@ -12,4 +12,4 @@ Det finns ett antal communitys för jägare och jaktintresserade där det redan 
 * Att tjänsten inte når ut till användarna
 * Produktion av hårdvara kan gå fel, icke-leveranser och felaktiga leveranser från 3:e part kan leda till att vi inte kan leverera det kunderna har beställt. 
 * Bristande nätverk - att vi inte hittar rätt kontakter för att nå ut på alla marknader. 
-* 
+* Att vi inte får ner priset på hårdvaran
